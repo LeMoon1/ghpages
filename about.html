@@ -1,66 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>My blog</title>
-    <meta name="description" content="awesome blog">
-    <meta name="keywords" content="web design blog, web dev blog">
-    <style type="text/css">
-        #main-header{
-            text-align: center;
-            background-color: black;
-            color: white;
-            padding: 10px;
-        }
-        #main-footer{
-            text-align: center;
-            padding: 18px;
-        }
-    </style>
-</head>
+    <meta charset="UTF-8">
+    <title>My Story</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Link to FontAwesome stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <body>
 
-<header id="main-header">
-    <h1>My website</h1>
-</header>
+    <nav id="navbar">
+        <div class="container">
+            <ul class="nav-left">
+                <!-- Character icon and other links on the left -->
+                <li><a href="https://twitter.com/daniels_exslave" target="_blank" class="icon-button">
+                    <img src="../MYWEB/assets/IMAGES/lemoon.jpg" alt="My character" class="responsive-image">
+                </a></li>
+                <li><a href="index.html" class="icon-button">Home</a></li>
+                <li><a href="about.html" class="icon-button">My Story</a></li>
+            </ul>
+            <ul class="nav-right">
+                <!-- Social icons on the right -->
+                <li><a href="https://www.linkedin.com/in/liam-alkobi" target="_blank" class="icon-button"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/LeMoon1" target="_blank" class="icon-button"><i class="fab fa-github"></i></a></li>
+                <li><a href="mailto:z5419171@ad.unsw.edu.au" target="_blank" class="icon-button"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <a href="index.html">Go to index</a>
+    
+    <section id="about-intro">
+        <div class="container">
 
-<section>
-    <article class="post">
-        <h3>Blog Post 1</h3>
-        <small>Posted By Liam</small>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <a href="post.html">Read More</a>
-    </article>
-    <article class="post">
-        <h3>Blog Post 2</h3>
-        <small>Posted By Liam</small>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <a href="post.html">Read More</a>
-    </article>
-    <article class="post">
-        <h3>Blog Post 3</h3>
-        <small>Posted By Liam</small>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <a href="post.html">Read More</a>
-    </article>
-</section>
+            
+        </div>
+    </section>
 
-<aside>
-    <h3>Categories</h3>
-    <nav>    
-    <ul>
-        <li><a href="#">Category 1</a></li>
-        <li><a href="#">Category 2</a></li>
-        <li><a href="#">Category 3</a></li>
-    </ul>
-</nav>
-
-</aside>
-
-<footer id="main-footer">
-    <p>Copyright &copy; 2024, My website</p>
-</footer>
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="footer-content">
+        <div class="footer-left">
+            2024 Liam Alkobi 
+        </div>
+        <div class="footer-center">
+            <a class="contact-button" onclick="location.href='mailto:z5419171@ad.unsw.edu.au'">Contact Me</a>
+        </div>
+        <div class="footer-center">
+            <a href="index.html">Home</a> | <a href="about.html" class="icon-button">My Story</a>
+        </div>
+        <div class="footer-right">
+            Opening hours: 24/7/365
+        </div>
+        </div>
+    </div>
+    
 
 </body>
 </html>
